@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.showTemp{
+  height: 100%;
+}
+.currentTemperature
+{
+  color: black;
+  position: relative;
+  padding-left: 550px;
+  padding-top: 10px;
+}
+.temperature{
+  color: red;
+}
+.left
+{
+  float: left;
+}
+.right{
+  float: right;
+  width: 40%;
+  height: 657px;
+  background-color: aqua;
+}
+.showImg
+{
+  width: 60%;
+}
+.showImg img
+{
+  width: 60%;
+  height: 100%;
+  position: absolute;
+}
+.search{
+  position: relative;
+  padding-top: 280px;
+  padding-left: 200px;
+}
+.search-box
+{
+  height: 30px;
+  border-radius: 8px;
+}
+.button
+{
+  border-radius: 8px;
+  height: 30px;
+}
+.currentInfo
+{
+  font-size: 28px;
+}
+.temperatureInfo
+{
+  margin: 20px;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+table {
+  border-collapse: collapse;
+}
